@@ -1,0 +1,30 @@
+.container-bl {
+  background-color: #dde6ed;
+  width: 70%;
+  height: 87vh;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #0000;
+  width: 15%;
+}
+
+.card-body {
+  justify-content: center;
+  background-color: #0000;
+}
+.card-body p {
+  font-size: small;
+  margin: 0%;
+  color: grey;
+}

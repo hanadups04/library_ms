@@ -1,0 +1,6 @@
+.container-p {
+  display: flex;
+  column-gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}

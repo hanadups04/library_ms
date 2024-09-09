@@ -1,0 +1,42 @@
+.container-ep {
+  background-color: #dde6ed;
+  width: 25%;
+  height: 63vh;
+  margin: 20px;
+  margin-right: 40px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  align-items: center;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+.container-ep h2 {
+  padding-bottom: 20px;
+}
+.form-floating {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.btn.btn-custom {
+  background-color: #526d82;
+}
+
+.btn.btn-custom:hover {
+  background-color: #526d82;
+}
+
+.btn-container button {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 600px;
+  color: #dde6ed;
+}
+
+.btn-container button:hover {
+  color: white;
+}
