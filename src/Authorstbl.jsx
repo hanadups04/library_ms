@@ -1,23 +1,7 @@
 import React from "react";
 import "./Authorstbl.css";
-import { useEffect, useState } from "react";
-import axios from "axios";
 
-function Authorstbl() {
-  const [authors, setAuthors] = useState([]);
-  useEffect(() => {
-    getAuthors();
-  }, []);
-
-  function getAuthors() {
-    axios
-      .get("http://localhost/library_ms_db/api/readAuthors.php")
-      .then(function (response) {
-        console.log(response.data);
-        setAuthors(response.data.data);
-      });
-  }
-
+function Authorstbl({ authors }) {
   return (
     <>
       <div className="container-atbl">

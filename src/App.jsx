@@ -12,8 +12,8 @@ function App() {
     <>
       <div class="body bg-custom vh-100">
         <Router>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-            <div class="container-fluid">
+          <nav className="navbar navbar-expand-lg navbar-dark bg-custom">
+            <div className="container-fluid">
               <a class="navbar-brand" href="#">
                 ADMIN
               </a>
